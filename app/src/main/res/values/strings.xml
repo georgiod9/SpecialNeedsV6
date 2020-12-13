@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">SpecialNeeds</string>
+    <string name="Logo">Logo</string>
+    <string name="username">Username:</string>
+    <string name="user">اسم المستخدم:</string>
+    <string name="password">كلمة السر:</string>
+    <string name="pass_ar">كلمة السر</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="login_as">تسجيل دخول جديد باسم:</string>
+    <string name="account_exists">هل لديك حساب؟</string>
+    <string name="or">لديك حساب؟</string>
+    <string name="user_ar">مستخدم</string>
+    <string name="volunteer_ar">متطوع</string>
+    <string name="signup_ar">تسجيل الدخول</string>
+    <string name="name_ar">الاسم:</string>
+    <string name="name">الاسم</string>
+
+    <string name="familyname_ar">اسم الشهرة:</string>
+    <string name="familyname">الشهرة</string>
+
+    <string name="email_ar">البريد الإلكتروني:</string>
+    <string name="email">ex: @gmail.com</string>
+    <string name="reenter_pass_ar">إعادة إدخال كلمة السر:</string>
+    <string name="birthday_ar">تاريخ الولادة:</string>
+    <string name="disability_ar">نوع الإعاقة:</string>
+    <string name="interests">الإهتمامات:</string>
+    <string name="available_times_ar">أوقات الفراغ:</string>
+    <string name="create_usr_ar">إنشاء حساب للمستخدم</string>
+    <string name="create_volunteer_ar">إنشاء حساب للمتطوع</string>
+    <string name="press_ar">اضغط</string>
+    <string name="submit_ar">إرسال</string>
+    <string name="choose_ar">أختر</string>
+    <string name="Disability_List_ar">اطرش، أخرس...</string>
+    <string name="AvailableTimes_List_ar">9:00-10:00, 12:00-3:00</string>
+
+    <string name="existingAccountToast_ar">اضغط على الزر أعلاه!</string>
+</resources>

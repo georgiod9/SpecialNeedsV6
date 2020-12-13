@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_user_signup"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/user_ar"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:backgroundTint="@color/buttonColor1"
+
+        app:layout_constraintBottom_toTopOf="@+id/button_volunteer_signup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/login_as"
+        android:textColor="#000000"
+        android:textColorHint="#2C2C2C"
+        android:textSize="20sp"
+
+
+        app:layout_constraintBottom_toTopOf="@+id/button_user_signup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/button_signin"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="105dp"
+        android:text="@string/signup_ar"
+        android:textSize="20sp"
+        android:backgroundTint="@color/buttonColor2"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:text="@string/or"
+        android:textColor="#000000"
+        android:textSize="18sp"
+
+        app:layout_constraintBottom_toTopOf="@+id/button_signin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_volunteer_signup" />
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/button_volunteer_signup"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/volunteer_ar"
+        android:textSize="20sp"
+        android:backgroundTint="@color/buttonColor1"
+
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_user_signup"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/imageView"
+        android:layout_width="161dp"
+        android:layout_height="238dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginRight="125dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
